@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<!--
+ Code for University of Strathclyde Mobile App Development.
+ Developed by Filip Lejhanec 2018.
+
+ Code confidential to developer and course examiners.
+
+ Description of this file
+-->
+<html>
+<head>
+    <title>Currency Converter</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+
+    <link rel="icon" sizes="192x192" href="icon.png" />
+    <link rel="apple-touch-icon" href="icon.png" />
+    <link rel="shortcut icon" href="weeicon.png" type="image/x-icon" />
+
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="normalize.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+<header>Currency Converter</header>
+<main>
+    <div id="sideBar">
+        <div id="currencyList">
+            <div class="currency button">EUR</div>
+            <div class="currency button">USD</div>
+            <div class="currency button">JPY</div>
+            <div class="currency button">BGN</div>
+            <div class="currency button">CZK</div>
+            <div class="currency button">DKK</div>
+            <div class="currency button">GBP</div>
+            <div class="currency button">HUF</div>
+            <div class="currency button">PLN</div>
+            <div class="currency button">RON</div>
+            <div class="currency button">SEK</div>
+            <div class="currency button">CHF</div>
+            <div class="currency button">ISK</div>
+            <div class="currency button">NOK</div>
+            <div class="currency button">HRK</div>
+            <div class="currency button">RUB</div>
+            <div class="currency button">TRY</div>
+            <div class="currency button">AUD</div>
+            <div class="currency button">BRL</div>
+            <div class="currency button">CAD</div>
+            <div class="currency button">CNY</div>
+            <div class="currency button">HKD</div>
+            <div class="currency button">IDR</div>
+            <div class="currency button">ILS</div>
+            <div class="currency button">INR</div>
+            <div class="currency button">KRW</div>
+            <div class="currency button">MXN</div>
+            <div class="currency button">MYR</div>
+            <div class="currency button">NZD</div>
+            <div class="currency button">PHP</div>
+            <div class="currency button">SGD</div>
+            <div class="currency button">THB</div>
+            <div class="currency button">ZAR</div>
+        </div>
+        <div id="menu">
+            <div id="homeCurrency" class="button">GBP</div>
+            <i class="fas fa-arrow-down"></i>
+            <div id="visitingCurrency" class="button">EUR</div>
+            <div id="zeroBank" class="button">0%</div>
+            <div id="twoBank" class="button">2%</div>
+            <div id="fourBank" class="button">4%</div>
+            <div id="sixBank" class="button">6%</div>
+        </div>
+    </div>
+    <div id="calculator">
+        <div id="display">
+            <div id="secondaryOutput"><span id="secondaryOutputSymbol"></span><span id="secondaryOutputValue">0.00</span></div>
+            <div id="output"><span id="outputSymbol"></span><span id="outputValue">0.00</span></div>
+        </div>
+        <div id="numPad">
+            <div class="row">
+                <div class="number button">7</div>
+                <div class="number button">8</div>
+                <div class="number button">9</div>
+            </div>
+            <div class="row">
+                <div class="number button">4</div>
+                <div class="number button">5</div>
+                <div class="number button">6</div>
+            </div>
+            <div class="row">
+                <div class="number button">1</div>
+                <div class="number button">2</div>
+                <div class="number button">3</div>
+            </div>
+            <div class="row">
+                <div id="clear" class="button">c</div>
+                <div class="number button">0</div>
+                <div id="convert" class="button">=</div>
+            </div>
+        </div>
+    </div>
+</main>
+<footer>&copy; Filip Lejhanec 2018</footer>
+<script src="Model.js"></script>
+<script src="View.js"></script>
+<script src="Controller.js"></script>
+<script src="Main.js"></script>
+</body>
+</html>

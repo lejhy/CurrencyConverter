@@ -1,0 +1,15 @@
+CACHE MANIFEST
+# 2017-02-07T18:20
+
+CACHE:
+index.html
+style.css
+normalize.css
+Model.js
+View.js
+Controller.js
+icon.png
+weeicon.png
+
+NETWORK:
+*
